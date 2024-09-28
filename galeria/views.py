@@ -8,3 +8,7 @@ def index(request):
 
 def index_outra_maneira(request):
     return HttpResponse("<h1>Outra maneira de printar um html</h1>")
+
+
+def imagem(request):
+    return render(request, "galeria/imagem.html")
